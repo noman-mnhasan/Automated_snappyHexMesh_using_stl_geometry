@@ -1,0 +1,34 @@
+{
+    "snappyhex-ready-stl-dir": "/home/txar/git-repo/CAE_automation_coreform_to_snappyHexMesh/test_cases/geometry/export_pre_formatted_stl/snappyHexMesh_ready_stl_files/",
+    "bc-info": {
+        "inlet": {
+            "bc-stl-file": "bc_inlet.stl",
+            "type": "inlet"
+        },
+        "outlet": {
+            "bc-stl-file": "bc_outlet.stl",
+            "type": "outlet"
+        },
+        "wall": {
+            "bc-stl-file": "bc_wall.stl",
+            "type": "wall"
+        }
+    },
+    "bc-stl-file-list": [
+        "bc_inlet.stl",
+        "bc_outlet.stl",
+        "bc_wall.stl"
+    ],
+    "block-info": {
+        "entry": "block_entry.stl",
+        "middle": "block_middle.stl",
+        "exit": "block_exit.stl"
+    },
+    "block-stl-file-list": [
+        "block_entry.stl",
+        "block_middle.stl",
+        "block_exit.stl"
+    ],
+    "combined-bc-stl-filename": "combinedBcStl.stl",
+    "combined-block-stl-filename": "combinedBlockStl.stl"
+}
