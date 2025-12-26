@@ -1,7 +1,7 @@
-# Automation : From Geoemtry to SnappyHexMesh setup - using STL files
-Process automation for converting any geoemtry with its surfaces meshed and generating mesh using snappyHexMesh.
+# Automation : From Geometry to SnappyHexMesh setup - using STL files
+Process automation for converting any geometry with its surfaces meshed and generating mesh using snappyHexMesh.
 
-The geoemtry automation process is built based on [Coreform Cubit](https://coreform.com/coreform-cubit/). To use this process, the simulation geometry/domain needs to be created as well as the surface mesh needs to ge created already. Once, prerequisites are done, the scriptes included in this repository can be used to create and save the the necessary stl files and geometry information. These geometry files and information is later used for creating the dictionaries needed for the snappyHexMesh process.
+The geometry automation process is built based on [Coreform Cubit](https://coreform.com/coreform-cubit/). To use this process, the simulation geometry/domain needs to be created as well as the surface mesh needs to ge created already. Once, prerequisites are done, the scriptes included in this repository can be used to create and save the the necessary stl files and geometry information. These geometry files and information is later used for creating the dictionaries needed for the snappyHexMesh process.
 
 <br>
 
@@ -62,7 +62,7 @@ Follow these steps to use this tools.
 
 <br>
 
-**To run the automated geoemtry/STL file creation process** - 
+**To run the automated geometry/STL file creation process** - 
 
 1. Add all necessary information in the input file (python).
 2. Open Coreform/Cubit.
